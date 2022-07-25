@@ -1,0 +1,52 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 30px;
+  left: 100px;
+  right: 100px;
+  
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+.nav-left p {
+  font-size: 50px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+
+/* RIGHT NAV*/
+
+.nav-right {
+  display: flex;
+  right: 0;
+  color: white;
+}
+
+.first,
+.second,
+.third {
+  width: 170px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: text-decoration 1s;
+  cursor: pointer;
+}
+
+.first:hover,
+.second:hover,
+.third:hover {
+  text-decoration: underline;
+}
+
